@@ -7,12 +7,12 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "http-server -p 8080 -c-1 dist/coffeapp",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod"
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
