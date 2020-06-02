@@ -7,7 +7,7 @@ import { MatSnackBar } from "@angular/material/snack-bar";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'coffeeappp';
+  title = 'coffeeapp';
 
   constructor(private snackBar : MatSnackBar) {
 

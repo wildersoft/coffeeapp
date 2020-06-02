@@ -1,5 +1,5 @@
 {
-  "name": "coffeeappp",
+  "name": "coffeeapp",
   "version": "0.0.0",
   "engines": {
     "node": "12.17.x",
@@ -7,7 +7,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "http-server -p 8080 -c-1 dist/coffeapp",
+    "start": "http-server -p 8080 -c-1 dist/coffeeapp",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
