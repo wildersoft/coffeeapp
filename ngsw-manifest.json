@@ -40,6 +40,10 @@
                         }
                     }
                 ]
+            },
+            "push": {
+                "showNotifications": "true",
+                "backgroundOnly": "false"
             }
         }
     }

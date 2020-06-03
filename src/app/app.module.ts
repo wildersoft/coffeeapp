@@ -25,6 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MatSnackBarModule } from "@angular/material/snack-bar";
+import { SwUpdate } from '@angular/service-worker';
 
 const routes : Routes =[
   {path : '', component: ListComponent},
