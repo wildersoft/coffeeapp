@@ -20,6 +20,26 @@
                         "url": "https://fonts.gstatic.com/s/materialicons/v51/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2"
                     }
                 ]
+            },
+            "dynamic": {
+                "group": [
+                    {
+                        "name": "api",
+                        "urls": {
+                            "https://nodeserverdb.herokuapp.com": {
+                                "match": "prefix"
+                            }
+                        },
+                        "cache": {
+                            "optimizeFor": "freshness",
+                            "networkTimeoutMs": "1000",
+                            "maxEntries": "30",
+                            "strategy": "lru",
+                            "maxAgeMs": "3600000000"
+
+                        }
+                    }
+                ]
             }
         }
     }
