@@ -1,0 +1,26 @@
+{
+    "routing" : {
+        "index" : "/index.html",
+        "routes": {
+            "/": {
+                "match": "exact"
+            },
+            "/coffee": {
+                "match": "prefix"
+            },
+            "static.ignore": [
+                "^\/icons\/.*$"
+            ],
+            "external": {
+                "urls": [
+                    {
+                        "url": "https://fonts.googleapis.com/icon?family=Material+Icons",
+                    },
+                    {
+                        "url": "https://fonts.gstatic.com/s/materialicons/v51/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2"
+                    }
+                ]
+            }
+        }
+    }
+}
