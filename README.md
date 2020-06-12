@@ -1,4 +1,7 @@
 # Coffeeapp
+I made this project following this course https://www.linkedin.com/learning/angular-progressive-web-apps but with Angular 9, so I made some changes to update libraries and modules that were deprecated, it was great and I recomend it very much.
+
+Also I published this in Heroku at https://coffeeappangular.herokuapp.com/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
